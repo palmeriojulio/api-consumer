@@ -1,6 +1,6 @@
 # Projeto React Native Consumindo API dummyjson
 
-Este projeto é relecionado a Atividade 04 do curso de pós em desenvolvimento mobile da Faculdade Unyleya, a atividade consiste em criar um aplicativo React Native que consome a API [dummyjson](https://dummyjson.com/docs) para exibir uma lista de itens e seus detalhes. 
+Este projeto é relecionado a Atividade 04 da disciplina Desenvolvimento Multiplataforma com React Native do curso de pós em desenvolvimento mobile da Faculdade Unyleya, a atividade consiste em criar um aplicativo React Native que consome a API [dummyjson](https://dummyjson.com/docs) para exibir uma lista de itens e seus detalhes. 
 
 ## Funcionalidades
 

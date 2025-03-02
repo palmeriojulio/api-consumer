@@ -8,7 +8,7 @@ import React from 'react';
     const MainStackNavigator = () => {
       return (
         <Stack.Navigator>
-          <Stack.Screen name="Lista" component={Lista} />
+          <Stack.Screen name="Lista de produtos" component={Lista} />
           <Stack.Screen name="Detalhes" component={Detalhes} />
         </Stack.Navigator>
       );
