@@ -41,3 +41,26 @@ Este projeto é relecionado a Atividade 04 do curso de pós em desenvolvimento m
     ```
 
 ## Estrutura de Pastas
+
+api-consumer/
+├── App.js
+└── src/
+    └── navigacao/
+    └── NavegadorPrincipal.js
+└── componentes/
+    └── Lista.js
+    └── Detalhes.js
+└── servicos/
+    └── api.js
+
+## Explicação do Código
+
+* **`App.js`:** Ponto de entrada do aplicativo. Configura a navegação principal usando `NavigationContainer` e `MainStackNavigator`.
+* **`src/navigation/MainStackNavigator.js`:** Define as rotas de navegação usando `createStackNavigator`. As rotas incluem a tela de listagem (`Lista`) e a tela de detalhes (`Detalhes`).
+* **`src/components/Lista.js`:** Componente que exibe a lista de itens obtidos da API. Utiliza `useEffect` para buscar os dados e `FlatList` para renderizar a lista.
+* **`src/components/Detalhes.js`:** Componente que exibe os detalhes de um item específico. Utiliza `useEffect` para buscar os dados do item com base no ID passado como parâmetro.
+* **`src/services/api.js`:** Configura o cliente Axios para fazer requisições à API dummyjson.
+
+## Considerações Finais
+
+Este projeto foi desenvolvido como parte de um exercício para consumir uma API externa usando React Native. As principais funcionalidades foram implementadas com sucesso, e o aplicativo está pronto para ser executado em um dispositivo móvel ou emulador.
