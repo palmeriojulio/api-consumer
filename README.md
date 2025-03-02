@@ -42,6 +42,7 @@ Este projeto é relecionado a Atividade 04 do curso de pós em desenvolvimento m
 
 ## Estrutura de Pastas
 
+```
 api-consumer/
 ├── App.js
 └── src/
@@ -52,6 +53,7 @@ api-consumer/
     └── Detalhes.js
 └── servicos/
     └── api.js
+```
 
 ## Explicação do Código
 
